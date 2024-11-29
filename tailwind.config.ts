@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes:{
+        widthExpand100:{
+          '0%':{ width: '0%'},
+          '100%':{ width: '100%'},
+          },
+      },
+      animation:{
+        widthExpand100: 'widthExpand100 0.4s ease-out forwards',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
