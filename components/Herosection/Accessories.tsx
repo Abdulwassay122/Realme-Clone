@@ -167,8 +167,8 @@ export default function Smartphones() {
                 </div>
         </div>
         {/* Component ---- 01 */}
-        <div id="fade-in14" className={`md:w-[650px] max-w-[650px] transition-opacity duration-700 ease-in-out transform ${
-        isVisible3 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        <div id="fade-in15" className={`md:w-[650px] max-w-[650px] transition-opacity duration-700 ease-in-out transform ${
+        isVisible4 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       } h-[380px] flex justify-center pt-12  rounded-2xl overflow-hidden`}>
         <div className='hover:scale-105 scale-100 absolute inset-0 xl:bg-center bg-right  transition-transform duration-300 bg-cover bg-[url(https://image01.realme.net/general/20220526/1653532499773.jpg.webp)] '></div>
         </div>
